@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: Outfit;
+}
+.container{
+    background-color: white;
+    border-radius: 25px;
+    padding: 35px;
+    width: 45%;
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 25px;
+    
+}
+
+.prep-list li::marker{
+        color: hsl(332, 51%, 32%);
+}
+
+.instruction-list li::marker, .ingredient-list li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+
+}
+
+li{
+    padding-left: 25px;
+    margin: 5px;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: Young Serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: Young Serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h1,h2{
+    margin-left: 20px;
+}
+
+span{
+    color: hsl(332, 51%, 32%);
+    font-family: Outfit;
+}
+
+
+li{
+   color: hsl(30, 10%, 34%);
+}
+
+
+
+p{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    margin-left: 20px;
+}
+
+.nutritions{
+    color: hsl(30, 10%, 34%);
+    padding-left: 50px !important;
+}
+
+
+.values{
+    color: hsl(14, 45%, 36%);
+    padding-right: 70px !important;
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    
+
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    *{
+        width: 100%;
+    }
+  
+}
